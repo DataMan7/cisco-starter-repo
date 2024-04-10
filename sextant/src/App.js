@@ -8,9 +8,9 @@ class App extends Component {
         return (
             <div className="App">
                 <Banner bannerText="Sextant" />
-                <Exhibit name="Location 1"></Exhibit>
-                <Exhibit name="Location 2"></Exhibit>
-                <Exhibit name="Location 3"></Exhibit>
+                <Exhibit name="Public IPv4 Address"></Exhibit>
+                <Exhibit name="Public IPv6 Address"></Exhibit>
+                <Exhibit name="Pylon Packet Latency"></Exhibit>
             </div>
         );
     }
